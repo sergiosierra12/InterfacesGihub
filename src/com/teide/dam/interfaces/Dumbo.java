@@ -12,12 +12,12 @@ public class Dumbo implements Volador{
 
     @Override
     public String despegar() {
-     return "el avion ha despegado a un coste de " ;  
+     return "Dumbo ha despegadovelozmente " ;  
     }
 
     @Override
     public String aterrizar(int metros) {
-    return "el avion ha aterrizado a un coste de " +(0.85*metros)+"€";   
+    return "Dumbo ha aterrizado a un coste de " +(0.85*metros)+"€";   
     }
     
 }
