@@ -34,15 +34,15 @@ public class Helipuerto {
             return listado.get(pos).aterrizar(metros);
        
         }
-    return "el volador numero " +pos+ "acaba aterrizar despues de volar " + metros;
+    return null;
 
     }
     
     public String despegar(int pos){
         
-   if(listado.size()>pos){
+    if(listado.size()>pos)
             return listado.get(pos).despegar();
-
-    }
+    return null;
+    
 }
 }
