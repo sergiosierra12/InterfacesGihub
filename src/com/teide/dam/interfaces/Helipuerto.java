@@ -11,41 +11,33 @@ import java.util.*;
  * @author DAM1
  */
 public class Helipuerto {
-    
-    Scanner s = new Scanner(System.in);
-     
-     int pos;
-    
-    public  void añadir (Volador){
-                Volador v = new Volador();
-        if (tabla.containsKey(p)) {
-            return false;
-        }        
-    }
-    
-    public boolean eliminar(int pos){
-        
-      
 
-          
-       
-       
-          
-        return true ;
-        
-        
+    private ArrayList<Volador> listado= new ArrayList<>();
+    int pos;
+
+    public void añadir(Volador v) {
+      listado.add(v);
     }
-    public String aterrizas(int pos, int metros){
-        
-      
-        
-       return "el volador " +pos+"ha volado " + metros+" metros " ;
+
+    public boolean eliminar(int pos) { 
+        if(listado.size()<pos){
+            return false;
+        }else{
+            listado.remove(pos);
+            return true;
+        }
     }
+
+    
+    public String aterrizar(int pos,int metros){
+        
+    return "el volador numero " +pos+ "acaba aterrizar despues de volar " + metros+;
+
+    }
+    
     public String despegar(int pos){
         
-        
-        
-       return "el volador numero " +pos+ "acaba de iniciar el despegue";
-    }
+    return "el volador numero " +pos+ "acaba de iniciar el despegue";
 
+    }
 }

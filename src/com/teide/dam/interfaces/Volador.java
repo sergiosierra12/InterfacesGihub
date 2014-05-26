@@ -11,8 +11,8 @@ package com.teide.dam.interfaces;
 public interface Volador {
     // hola  sergio
  
-    public  abstract String despegar ();
-    public  abstract String aterrizar (int metros);
+    public String despegar ();
+    public String aterrizar (int metros);
     
     
     
