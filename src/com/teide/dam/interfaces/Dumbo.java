@@ -17,7 +17,7 @@ public class Dumbo implements Volador{
 
     @Override
     public String aterrizar(int metros) {
-    return "Dumbo ha aterrizado a un coste de " +(0.85*metros)+"€";   
+    return "Dumbo ha aterrizado a un coste de " +(0.95*metros)+"€";   
     }
     
 }
