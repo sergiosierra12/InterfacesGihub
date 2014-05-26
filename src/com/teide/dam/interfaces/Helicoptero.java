@@ -12,7 +12,7 @@ public class Helicoptero implements Volador{
 
     @Override
     public String despegar() {
-         return "el avion ha despegado " ;  
+         return " el avion ha despegado " ;  
     }
 
     @Override
