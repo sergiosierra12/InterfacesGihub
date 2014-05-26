@@ -4,14 +4,16 @@
  */
 package com.teide.dam.interfaces;
 
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  *
  * @author DAM1
  */
 public class Helipuerto {
-     private ArrayList<Volador> listado;
+    
+    Scanner s = new Scanner(System.in);
+     
      int pos;
     
     public  void añadir (Volador){
@@ -23,11 +25,27 @@ public class Helipuerto {
     
     public boolean eliminar(int pos){
         
+      
+
+          
+       
+       
+          
+        return true ;
+        
+        
     }
     public String aterrizas(int pos, int metros){
         
+      
+        
+       return "el volador " +pos+"ha volado " + metros+" metros " ;
     }
     public String despegar(int pos){
         
+        
+        
+       return "el volador numero " +pos+ "acaba de iniciar el despegue";
     }
+
 }
