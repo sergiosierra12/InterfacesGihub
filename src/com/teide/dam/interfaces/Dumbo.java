@@ -12,7 +12,7 @@ public class Dumbo implements Volador{
 
     @Override
     public String despegar() {
-     return "Dumbo ha despegadovelozmente " ;  
+     return "Dumbo ha despegado velozmente " ;  
     }
 
     @Override
